@@ -7,6 +7,20 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+    <div class="col-xs-3">
+      LOGO
+    </div>
+    <div class="col-xs-4">
+      Splurting out Irish sayings to impress your friends and confound your enemies
+    </div>
+    <div class="col-xs-5">
+      <%= link_to 'Contribute/Tabhair ceann nua', '#' %>
+      <%= link_to 'About/Faoi an tionscadal seo', '#' %>
+    </div>
+  </header>
+
+  <br class="clear" />
 
 <%= yield %>
 
