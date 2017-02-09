@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Roboto&subset=latin-ext');
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -35,10 +36,19 @@
   color:black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
 }
 header {
   border-top: 9px solid #222222;
 }
 hr {
   clear:both;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+}
+h2 {
+  font-family: 'Lato', sans-serif;
 }
