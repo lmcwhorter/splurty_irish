@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Splurty</title>
+  <title>Splurty Irish</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -29,7 +29,23 @@
   <hr />
   <br class="clear" />
 
+<div class="container">
 <%= yield %>
+</div>
+
+</div>
+
+<div class="footer">
+  <div class="container">
+    <div class="col-xs-6">
+      <%= link_to "This isn't enough, I need another one. Níl sé go leor, ceann eile uaim.", "#", class: 'next-quote' %>
+    </div>
+    <div class="col-xs-6 footer-blurb">
+      Proudly hacked in the Sandwich Isles by me, myself, &amp, I, Laura McWhorter <br / />
+      Want to have a go at building your own Splurty app? <a href="http://thefirehoseproject.com">Learn how to code here</a>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
